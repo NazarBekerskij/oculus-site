@@ -81,22 +81,73 @@ gap: 8px;
   height: 2px;
 }
 
-
+/* ///////////////////////////////// */
 
 .top{
   background-image: url(../images/top-bg.jpg);
   height: 100vh;
 }
 
+.top__inner{
+  padding-top: 200px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-bottom: 50px;
+}
+
+.top__content{
+display: flex;
+font-size: 18;
+}
 
 
+.top__title{
+font-size: 200px;
+font-weight: 700;
+line-height: .85;
+text-transform: uppercase;
+}
 
+.top__title span{
+display: block;
+margin-left: 200px;
+}
 
+.top__text{
+max-width: 368px;
+text-align: right;
+margin-left: auto;
+}
 
+.top__slogan{
+margin-left: -20px;
+}
 
+.top__info {
+display: flex;
+margin-top: auto;
+}
 
+.top__info-list {
+display: flex;  
+gap: 80px;
+font-weight: 600;
+}
 
+.top__info-list dt{
+font-size: 64px;
+line-height: 70px;
+}
 
+.top__info-list dd{
+font-size: 32px;
+}
+
+.top__explore {
+margin-left: auto;
+}
 
 
 
