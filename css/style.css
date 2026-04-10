@@ -25,7 +25,7 @@ button {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Onest", sans-serif;
   font-size: 18px;
   font-weight: 400;
 }
@@ -60,11 +60,13 @@ margin-right: auto;
 .menu__list{
 display: flex;
 gap: 40px;
+
 }
 
 .menu__lang{
   margin-right: 105px;
   display: flex;
+  gap: 5px;
 }
 
 .header__btn{
