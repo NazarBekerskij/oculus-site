@@ -60,7 +60,14 @@ margin-right: auto;
 .menu__list{
 display: flex;
 gap: 40px;
+}
 
+.menu__link{
+  transition: color 0.3s;
+}
+
+.menu__link:hover{
+color: #0082FB;
 }
 
 .menu__lang{
@@ -128,12 +135,14 @@ margin-left: -20px;
 .top__info {
 display: flex;
 margin-top: auto;
+align-items: end;
 }
 
 .top__info-list {
 display: flex;  
 gap: 80px;
 font-weight: 600;
+
 }
 
 .top__info-list dt{
@@ -147,6 +156,9 @@ font-size: 32px;
 
 .top__explore {
 margin-left: auto;
+display: flex;
+gap: 33px;
+align-items: end;
 }
 
 
@@ -175,10 +187,18 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 transition: all 1s ease-in-out;
 }
 
+.top__box{
+ width: 320px;
+ height: 320px; 
+ background-color: rgba(5, 12, 60, .5);
+ border-radius: 20px;
+}
 
 
+#canvas{
+  background-color: transparent;
 
-
+}
 
 
 
